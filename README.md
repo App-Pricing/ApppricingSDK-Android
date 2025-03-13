@@ -121,4 +121,4 @@ private fun getPlans() {
 
 For technical support and inquiries:
 
-- Email: support@apppricing.com
+- Email: support@ondokuzon.com
