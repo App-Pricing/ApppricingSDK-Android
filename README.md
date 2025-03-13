@@ -1,4 +1,4 @@
-![App Pricing](https://dash.apppricing.com/2x.png)
+![App Pricing](https://dash.apppricing.com/1x.png)
 
 # AppPricing SDK
 
@@ -16,7 +16,7 @@ Visit the [App Pricing](https://apppricing.com) to manage your pricing strategie
 - **User Segmentation**: Categorizes users into pricing tiers for maximum profitability.
 - **Seamless Integration**: Easy-to-use SDK with minimal setup.
 
-![App Pricing](https://dash.apppricing.com/4x.png)
+![App Pricing](https://dash.apppricing.com/3x.png)
 
 ---
 
