@@ -57,6 +57,10 @@ class MyApplication : Application() {
 }
 ```
 
+To obtain your `YOUR_API_KEY`, log in to the [AppPricing Dashboard](https://dash.apppricing.com), navigate to the API section, and copy your unique key as shown below:
+
+![How to copy API key](https://dash.apppricing.com/image.png)
+
 ### 2. Fetching Plans
 
 After initializing the SDK, you can fetch available plans for the device and show the appropriate paywall:
