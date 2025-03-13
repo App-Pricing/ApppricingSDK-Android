@@ -57,7 +57,7 @@ class MyApplication : Application() {
 }
 ```
 
-To obtain your `YOUR_API_KEY`, log in to the [AppPricing Dashboard](https://dash.apppricing.com), navigate to the API section, and copy your unique key as shown below:
+To obtain your `YOUR_API_KEY`, log in to the [AppPricing Dashboard](https://dash.apppricing.com), navigate to the Apps page, and copy your unique key as shown below:
 
 ![How to copy API key](https://dash.apppricing.com/image.png)
 
