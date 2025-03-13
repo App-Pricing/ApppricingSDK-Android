@@ -4,7 +4,7 @@
 
 ![App Pricing Dashboard](https://dash.apppricing.com/appricing-main-banner.png)
 
-Visit the [App Pricing Dashboard](https://dash.apppricing.com) to manage your pricing strategies or check out the [official website](https://apppricing.com) for more details.
+Visit the [App Pricing](https://apppricing.com) to manage your pricing strategies or more details.
 
 ---
 
