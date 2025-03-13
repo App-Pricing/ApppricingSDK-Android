@@ -1,8 +1,16 @@
 # AppPricing SDK
 
-AppPricing SDK is an intelligent pricing optimization tool for mobile applications. It analyzes user behavior and characteristics to determine the most appropriate pricing strategy for each individual user. 
+**AppPricing SDK** is an intelligent pricing optimization tool for mobile applications. It leverages advanced algorithms to analyze user behavior and characteristics, delivering tailored pricing strategies for each individual user. By integrating this SDK, your app can dynamically display the right paywall—whether premium, standard, or basic—based on sophisticated backend analysis.
 
-By integrating this SDK, your app will receive smart recommendations for which paywall to display based on sophisticated backend analysis that categorizes users into different purchasing tiers (e.g., premium, standard, or basic pricing segments).
+---
+
+## Features
+
+- **Dynamic Pricing**: Adjusts prices in real-time based on user behavior, location, and more.
+- **User Segmentation**: Categorizes users into pricing tiers for maximum profitability.
+- **Seamless Integration**: Easy-to-use SDK with minimal setup.
+
+---
 
 ## Installation
 
@@ -24,7 +32,6 @@ settings.gradle {
 ## Getting Started
 
 ### 1. Initialize the SDK
-
 
 ```kotlin
 class MyApplication : Application() {
@@ -101,4 +108,5 @@ private fun getPlans() {
 ## Support
 
 For technical support and inquiries:
+
 - Email: support@apppricing.com
