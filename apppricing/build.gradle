@@ -2,6 +2,7 @@ plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
     id 'org.jetbrains.kotlin.plugin.serialization'
+    id 'maven-publish'
 }
 
 android {
@@ -45,4 +46,19 @@ dependencies {
     api "androidx.datastore:datastore-preferences:1.0.0"
     api "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
     api "com.android.billingclient:billing-ktx:6.1.0"
+}
+
+// Maven Publish Configuration
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.App-Pricing'
+                artifactId = 'ApppricingSDK-Android'
+                version = '1.0.0'
+            }
+        }
+    }
 }
