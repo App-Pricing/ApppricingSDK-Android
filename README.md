@@ -22,35 +22,31 @@ Visit the [App Pricing](https://apppricing.com) to manage your pricing strategie
 
 ## Installation
 
-Add the following to your project's `settings.gradle` file:
+### Step 1. Add the JitPack repository to your build file
+
+Add it in your root settings.gradle at the end of repositories:
 
 ```gradle
 dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        // ... other repositories
+        mavenCentral()
         maven { url 'https://jitpack.io' }
     }
 }
 ```
 
-Or if you're using the older style, add to your root `build.gradle` file:
+### Step 2. Add the dependency
 
-```gradle
-allprojects {
-    repositories {
-        // ... other repositories
-        maven { url 'https://jitpack.io' }
-    }
-}
-```
-
-Then add the dependency to your app's `build.gradle`:
+Add the dependency to your app's build.gradle file:
 
 ```gradle
 dependencies {
-    implementation 'com.github.App-Pricing:ApppricingSDK-Android:1.0.0'
+    implementation 'com.github.App-Pricing:ApppricingSDK-Android:Tag'
 }
 ```
+
+Replace `Tag` with a specific version (like `1.0.0`) or use the commit hash.
 
 ## Getting Started
 
